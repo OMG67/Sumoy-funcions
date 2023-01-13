@@ -1,17 +1,7 @@
 Proceso _85_funcions
-	
-	Definir notasAlumno Como Entero;
-	Dimension notasAlumno[5];
-	
-	notasAlumno[0] <- 9;
-	notasAlumno[1] <- 10;
-	notasAlumno[2] <- 2;
-	notasAlumno[3] <- 4;
-	notasAlumno[4] <- 1;
-	
 	Escribir operacio(numero1,numero2,operador);
 	Escribir obteDistancia(x1,x2,y1,y2);
-	//Escribir obteMitjArit(notasAlumno,5);
+	Escribir obteMitArit(vector,midaDelVector);
 FinProceso
 
 
@@ -50,6 +40,6 @@ FinFuncion
 
 // MitjArit
 Funcion mitjanaAritmetica <- obteMitArit(vector,midaDelVector)
-	
+	Definir mitjanaAritmetica Como Entero;
 FinFuncion
 	
